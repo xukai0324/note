@@ -9,10 +9,10 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 public class HelloController {
-    //@Value("${spring}")
+    @Value("${spring}")
     String name;
 
-    @Value("foo:jack")
+    @Value("${foo:jack}")
     String value;
 
     @RequestMapping(value = "hello")
