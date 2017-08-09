@@ -4,7 +4,7 @@ spring:
       server:
         git:
           uri: https://github.com/xukai0324/note/
-          search-paths: config/source/config/src/main/resources/config
+          search-paths: source/config/src/main/resources/config
   application:
     name: config-server
 server:
