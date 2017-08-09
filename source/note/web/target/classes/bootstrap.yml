@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: note-server
+  cloud:
+    config:
+      uri: http://localhost:8000
+  profiles:
+    active: test
+server:
+  port: 8007
